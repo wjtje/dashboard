@@ -31,8 +31,7 @@ export default function Dashboard({
 			<Masonry
 				breakpointCols={columns}
 				className={styles.grid}
-				columnClassName={styles.grid_column
-				}>
+				columnClassName={styles.grid_column}>
 				{children}
 			</Masonry>
 		</main>
